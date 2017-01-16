@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: pi_visul - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\llpspark\AppData\Local\Temp\RSPBE87.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/pi_visul.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Installation Package\VC6cn\MyProjects\pi_visul\pi_visul_f.cpp"
+]
+Creating command line "cl.exe @C:\Users\llpspark\AppData\Local\Temp\RSPBE87.tmp" 
+<h3>Output Window</h3>
+Compiling...
+pi_visul_f.cpp
+d:\installation package\opencv\build\include\opencv2\core\core.hpp(79) : error C2039: 'ptrdiff_t' : is not a member of 'std'
+d:\installation package\opencv\build\include\opencv2\core\core.hpp(79) : error C2868: 'ptrdiff_t' : illegal syntax for using-declaration; expected qualified-name
+d:\installation package\opencv\build\include\opencv2\core\core.hpp(387) : error C2535: '__thiscall cv::Allocator<U>::cv::Allocator<U>(const class cv::Allocator<U> &)' : member function already defined or declared
+        d:\installation package\opencv\build\include\opencv2\core\core.hpp(385) : see declaration of 'Allocator<_Tp>::Allocator<_Tp>'
+        d:\installation package\opencv\build\include\opencv2\core\core.hpp(403) : see reference to class template instantiation 'cv::Allocator<_Tp>' being compiled
+d:\installation package\opencv\build\include\opencv2\core\core.hpp(426) : error C2989: 'DataDepth<class ?? ::_Tp *>' : template class has already been defined as a non-template class
+d:\installation package\opencv\build\include\opencv2\core\core.hpp(426) : error C2988: unrecognizable template declaration/definition
+d:\installation package\opencv\build\include\opencv2\core\core.hpp(541) : fatal error C1903: unable to recover from previous error(s); stopping compilation
+Command line warning D4028 : minimal rebuild failure, reverting to normal build
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+pi_visul_f.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
